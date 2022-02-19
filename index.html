@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        .sum,
+        .subtract,
+        .division,
+        .multy{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <div class="sum">
+        <input  id="input1" type="number" placeholder="Введите первое число"> 
+        <p>+</p>
+        <input id="input2" type="number"
+        placeholder=" Введите второе число">
+        <button class ="calcsum">=</button>
+        <div id="resultsum">Сумма</div>
+    </div>
+    <div class="subtract">
+        <input  id="input3" type="number" placeholder="Введите первое число"> 
+        <p>-</p>
+        <input id="input4" type="number"
+        placeholder=" Введите второе число">
+        <button class = "calcsubtract">=</button>
+        <div id="resultsubtract">Разность</div>
+    </div>
+    <div class="division">
+        <input  id="input5" type="number" placeholder="Введите первое число"> 
+        <p>/</p>
+        <input id="input6" type="number"
+        placeholder=" Введите второе число">
+        <button class="calcDiv">=</button>
+        <div id="resultdivision">Частное</div>
+    </div>
+    <div class="multy">
+        <input  id="input7" type="number" placeholder="Введите первое число"> 
+        <p>*</p>
+        <input id="input8" type="number"
+        placeholder=" Введите второе число">
+        <button class="calcmulty">=</button>
+        <div id="resultmulty">Произведение</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
